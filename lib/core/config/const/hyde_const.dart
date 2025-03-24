@@ -1,4 +1,4 @@
-class SenseiConst {
+class HyDEConst {
   static const String appName = "HyDE-StyleHub";
   static const String appVersion = "1.0.0";
 
@@ -33,6 +33,5 @@ class SenseiConst {
   static const double margin = 8;
   static const double outBorderRadius = inBorderRadius + padding;
   static const double indicatorDotSize = 8.0;
-  static const Duration animationDuration = Duration(milliseconds: 350);
   static const double inBorderRadius = 8;
 }

@@ -1,6 +1,5 @@
 import 'package:connectivity_plus/connectivity_plus.dart';
-import 'package:tadamon/core/widgets/app_toast/app_toast.dart';
-import 'package:tadamon/features/report_products/logic/services/report_service.dart';
+
 
 class NetworkController {
   final Connectivity _connectivity = Connectivity();
@@ -27,19 +26,15 @@ class NetworkController {
     switch (result) {
       
       case ConnectivityResult.wifi:
-        await ReportService.resendPendingReports();
         break;
 
       case ConnectivityResult.mobile:
-        await ReportService.resendPendingReports();
         break;
 
       case ConnectivityResult.ethernet:
-        await ReportService.resendPendingReports();
         break;
 
       case ConnectivityResult.vpn:
-                await ReportService.resendPendingReports();
         break;
 
       case ConnectivityResult.none:

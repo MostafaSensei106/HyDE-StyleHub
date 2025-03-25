@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:hyde_stylehub/generated/l10n.dart';
 
 class NoRoutes extends StatelessWidget {
   const NoRoutes({super.key});

@@ -1,12 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
-import 'package:hyde_stylehub/core/config/theme/colors/light_theme.dart';
-import 'package:hyde_stylehub/core/config/theme/colors/logic/cubit/theme_cubit.dart';
-import 'package:hyde_stylehub/core/config/theme/colors/logic/cubit/theme_shared_preferences.dart';
-import 'package:hyde_stylehub/core/config/theme/colors/logic/cubit/theme_state.dart';
-import 'package:hyde_stylehub/core/routing/app_router.dart';
-import 'package:hyde_stylehub/core/routing/routes.dart';
+
 
 
 class HyDEApp extends StatelessWidget {
@@ -34,8 +29,8 @@ class HyDEApp extends StatelessWidget {
               themeMode: themeState.themeMode,
             initialRoute: Routes.onBoarding,
               onGenerateRoute: appRouter.generateRoute,
-              locale: const Locale('ar', 'EG'),
-              supportedLocales: const [Locale('ar', 'EG')],
+              locale: const Locale('en', 'UK'),
+              supportedLocales: const [Locale('en', 'UK')],
               localizationsDelegates: const [
                 S.delegate,
                 GlobalMaterialLocalizations.delegate,
@@ -43,7 +38,7 @@ class HyDEApp extends StatelessWidget {
                 GlobalCupertinoLocalizations.delegate,
               ],
               localeResolutionCallback:
-                  (locale, supportedLocales) => const Locale('ar', 'EG'),
+                  (locale, supportedLocales) => const Locale('en', 'UK'),
             );
           },
         ),

@@ -30,9 +30,10 @@ dependencies:
   flutter_launcher_icons: ^0.14.3
   path_provider: ^2.1.5
   lottie: ^3.3.1
+  toastification: ^3.0.1
+
   # objectbox: ^4.1.0
   # objectbox_flutter_libs: ^4.1.0 
-  # toastification: ^3.0.1
   open_file: ^3.5.10
   file_picker: ^9.0.2
 
@@ -46,13 +47,15 @@ dev_dependencies:
 
 
 flutter:
-
-
+  generate: true
   uses-material-design: true
 
-  # assets:
-  #   - images/a_dot_burr.jpeg
-  #   - images/a_dot_ham.jpeg
+
+  assets:
+    - assets/icons/
+    - assets/images/
+    - assets/animations/lottie/
+
 
 
   # fonts:
@@ -66,3 +69,4 @@ flutter:
   #       - asset: fonts/TrajanPro.ttf
   #       - asset: fonts/TrajanPro_Bold.ttf
   #         weight: 700
+

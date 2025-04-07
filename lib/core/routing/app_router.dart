@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:hyde_stylehub/core/error/no_routes.dart';
 import 'package:hyde_stylehub/core/routing/routes.dart';
+import 'package:hyde_stylehub/features/pages/main/ui/page/main_page.dart';
 import 'package:hyde_stylehub/features/pages/onboarding_page/ui/page/onboarding_page.dart';
 
 class AppRouter {
@@ -27,9 +28,9 @@ class AppRouter {
       case Routes.onBoarding:
         page = const OnboardingPage();
         break;
-      // case Routes.mainPage:
-      //   page = const MainPage();
-      //   break;
+      case Routes.mainPage:
+        page = const MainPage();
+        break;
       default:
         page = const NoRoutes();
     }

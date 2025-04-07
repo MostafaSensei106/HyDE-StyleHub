@@ -2,9 +2,13 @@ import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:flutter_localizations/flutter_localizations.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
+import 'package:hyde_stylehub/core/config/theme/colors/dark_theme.dart';
+import 'package:hyde_stylehub/core/config/theme/colors/light_theme.dart';
 import 'package:hyde_stylehub/core/config/theme/colors/logic/cubit/theme_cubit.dart';
 import 'package:hyde_stylehub/core/config/theme/colors/logic/cubit/theme_shared_preferences.dart';
 import 'package:hyde_stylehub/core/config/theme/colors/logic/cubit/theme_state.dart';
+import 'package:hyde_stylehub/core/routing/app_router.dart';
+import 'package:hyde_stylehub/core/routing/routes.dart';
 import 'package:hyde_stylehub/generated/l10n.dart';
 
 
@@ -28,9 +32,9 @@ class HyDEApp extends StatelessWidget {
           builder: (context, themeState) {
             return MaterialApp(
               debugShowCheckedModeBanner: false,
-              title: ' تَضَامُنٌ',
+              title: 'HyDE Style Hub',
               theme: lightTheme,
-              // darkTheme: darkTheme,
+               darkTheme: darkTheme,
               themeMode: themeState.themeMode,
             initialRoute: Routes.onBoarding,
               onGenerateRoute: appRouter.generateRoute,

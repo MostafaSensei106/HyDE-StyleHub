@@ -1,6 +1,7 @@
-class SenseiConst {
-  static const String appName = "HyDE-StyleHub";
-  static const String appVersion = "1.0.0";
+class HydeConst {
+  static const String appName = 'HyDE Style Hub';
+
+  static const String appVersion = '1.0.0';
 
   static const String devFaceBookLink =
       "https://www.facebook.com/MostafaSensei106";
@@ -10,14 +11,10 @@ class SenseiConst {
   static const String devReadMeLink =
       "https://github.com/MostafaSensei106/HyDE-StyleHub/blob/master/README.md";
   static const String devReleaseAppLink =
-      "https://github.com/MostafaSensei106/HyDE-StyleHub/releases/latest";
+      "https://github.com/MostafaSensei106/HyDE-StyleHub/releases";
   static const String devGitHubTokenLink =
       "https://github.com/MostafaSensei106/HyDE-StyleHub/issues";
-
-  static const String senseiImage = "assets/images/MHlogo.png";
-  static const String drawerImage = "assets/images/drawer_image.webp";
-  static const String appBarImage = "assets/images/cover.webp";
-  static const String appImage = "assets/images/appImage.webp";
+  static const String hyDEDiscordLink = "https://discord.gg/AYbJ9MJez7";
 
   static const String lottieSearchAnimation =
       "assets/animations/lottie/search_placeholder.json";
@@ -33,6 +30,8 @@ class SenseiConst {
   static const double margin = 8;
   static const double outBorderRadius = inBorderRadius + padding;
   static const double indicatorDotSize = 8.0;
+
   static const Duration animationDuration = Duration(milliseconds: 350);
+
   static const double inBorderRadius = 8;
 }

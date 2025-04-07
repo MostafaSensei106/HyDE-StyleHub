@@ -1,0 +1,254 @@
+{
+    "@@locale": "en",
+  
+    "@appName": {
+      "description": "Application name"
+    },
+    "appName": "HyDE",
+  
+    "@appDescription": {
+      "description": "Application description"
+    },
+    "appDescription": "Fixing HyDe Style Hub",
+  
+    "@errorHandle": {
+      "description": "HyDE application error"
+    },
+    "errorHandle": "Application error",
+  
+    "@home": {
+      "description": "Main title in the application"
+    },
+    "home": "Home",
+  
+    "@search": {
+      "description": "Search button"
+    },
+    "search": "Search",
+  
+    "@logs": {
+      "description": "Logs page"
+    },
+    "logs": "Logs",
+  
+    "@scanBarcode": {
+      "description": "Barcode scanning button"
+    },
+    "scanBarcode": "Scan Barcode",
+  
+    "@imageAnalysis": {
+      "description": "Image analysis"
+    },
+    "imageAnalysis": "Image Analysis",
+  
+    "@editText": {
+      "description": "Text editing"
+    },
+    "editText": "Edit Text",
+  
+    "@palatineMap": {
+      "description": "Palestine map"
+    },
+    "palatineMap": "Palestine Map",
+  
+    "@donate": {
+      "description": "Donate to Gaza button"
+    },
+    "donate": "Donate to Gaza",
+  
+    "@scanedProducts": {
+      "description": "Number of reviewed products"
+    },
+    "scanedProducts": "Reviewed Products",
+  
+    "@supportedProducts": {
+      "description": "Number of supported products"
+    },
+    "supportedProducts": "Supported Products",
+  
+    "@systemTheme": {
+      "description": "Interface color settings"
+    },
+    "systemTheme": "App Interface Color",
+  
+    "@followSystemTheme": {
+      "description": "Match app color with system"
+    },
+    "followSystemTheme": "Match System Theme",
+  
+    "@darkTheme": {
+      "description": "Dark mode"
+    },
+    "darkTheme": "Dark Mode",
+  
+    "@lightTheme": {
+      "description": "Light mode"
+    },
+    "lightTheme": "Light Mode",
+  
+    "@switchToDarkTheme": {
+      "description": "Switch to dark mode"
+    },
+    "switchToDarkTheme": "Switch to Dark Mode",
+  
+    "@switchToLightTheme": {
+      "description": "Switch to light mode"
+    },
+    "switchToLightTheme": "Switch to Light Mode",
+  
+    "@appOffLine": {
+      "description": "Application status when offline"
+    },
+    "appOffLine": "Tadamon Offline",
+  
+    "@appOffLineMassageDontRunning": {
+      "description": "Offline error message"
+    },
+    "appOffLineMassageDontRunning": "The app is offline.",
+  
+    "@appOnLineMassageRunning": {
+      "description": "Application running success message"
+    },
+    "appOnLineMassageRunning": "The app is running successfully.",
+  
+    "@appOflineLoading": {
+      "description": "Offline data loading"
+    },
+    "appOflineLoading": "Please wait ...",
+  
+    "@enableOnline": {
+      "description": "Load product list"
+    },
+    "enableOnline": "Load Product List",
+  
+    "@enableOnlineMassage": {
+      "description": "Message when running offline"
+    },
+    "enableOnlineMassage": "Running the app offline.",
+  
+    "@clearLogs": {
+      "description": "Clear logs"
+    },
+    "clearLogs": "Clear Logs",
+  
+    "@clearLogsMassage": {
+      "description": "Clear product logs"
+    },
+    "clearLogsMassage": "Clear product logs in the app.",
+  
+    "@howToUse": {
+      "description": "FAQ"
+    },
+    "howToUse": "FAQ",
+  
+    "@howToUseMassage": {
+      "description": "How to use the application"
+    },
+    "howToUseMassage": "Learn how to use the application.",
+  
+    "@reportProduct": {
+      "description": "Report a product"
+    },
+    "reportProduct": "Report a Product",
+  
+    "@reportProductMassage": {
+      "description": "Help improve the app"
+    },
+    "reportProductMassage": "Help us improve the app.",
+  
+    "@sheetTitleProductInfo": {
+      "description": "Product details title"
+    },
+    "sheetTitleProductInfo": "Product Details",
+  
+    "@developer": {
+      "description": "Developer name"
+    },
+    "developer": "Developer",
+  
+    "@mostafaMahmoud": {
+      "description": "Full developer name"
+    },
+    "mostafaMahmoud": "Mostafa Mahmoud",
+  
+    "@readMe": {
+      "description": "ReadMe button"
+    },
+    "readMe": "ReadMe",
+  
+    "@readMeMassage": {
+      "description": "GitHub repository link"
+    },
+    "readMeMassage": "Link to the app repository on GitHub.",
+  
+    "@letastUpdate": {
+      "description": "Latest updates"
+    },
+    "letastUpdate": "Latest Updates",
+  
+    "@letestUpdateMassage": {
+      "description": "Latest update details"
+    },
+    "letestUpdateMassage": "Check for updates and change log.",
+  
+    "@githubTiket": {
+      "description": "Create a GitHub ticket"
+    },
+    "githubTiket": "GitHub Ticket",
+  
+    "@githubTiketMassage": {
+      "description": "Report an issue or suggest a feature"
+    },
+    "githubTiketMassage": "Report an issue or suggest a new feature.",
+  
+    "@telegramChannel": {
+      "description": "Telegram channel"
+    },
+    "telegramChannel": "Telegram Channel",
+  
+    "@telegramChannelMassage": {
+      "description": "Telegram channel link"
+    },
+    "telegramChannelMassage": "Link to Telegram channel.",
+  
+    "@about": {
+      "description": "About the application"
+    },
+    "about": "About the App",
+  
+    "@aboutTadamon": {
+      "description": "About Tadamon App"
+    },
+    "aboutTadamon": "About Tadamon App.",
+  
+    "@contactDev": {
+      "description": "Contact developer button"
+    },
+    "contactDev": "Message from Developer",
+  
+    "@devMassage": {
+      "description": "Developer message"
+    },
+    "devMassage": "No message available currently.",
+  
+    "@devThx": {
+      "description": "Thanks from developer"
+    },
+    "devThx": "Thank you for using Tadamon.",
+  
+    "@devDonate": {
+      "description": "Donate to developer"
+    },
+    "devDonate": "Support the Developer.",
+  
+    "@contactDevMassage": {
+      "description": "Ways to contact the developer"
+    },
+    "contactDevMassage": "Follow me on social media.",
+  
+    "@close": {
+      "description": "Close button"
+    },
+    "close": "Close"
+  }
+  
